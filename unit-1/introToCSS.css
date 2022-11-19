@@ -1,0 +1,103 @@
+
+/*  Building Blocks 
+
+    selector {
+        [declaration Block]
+        property: value
+    }
+
+    3 ways to target element:
+    element, class, & id
+
+        Order of "Final Responce" - Order of operations
+        - !important
+        - Inlince CSS
+        - ID Selectors
+        - Class Selectors
+        - Element 
+  */
+    
+nav {
+    /*  we target the element */
+
+    background-color: darkgoldenrod; 
+    /* 
+        -present colors: red, blue, yellow, etc
+        -rgb & rgba (reg, green, blue, alpha)
+            - alpha determines transparency
+            - ex: rgba(200, 15, 100, .5);
+        -Hexidenimal
+            -16 digits: 0-9, A-F
+                -#
+                - ex: #d2d2d2 */
+
+    overflow: hidden;           
+}
+/* #About {
+    float: left;
+} */
+
+/* Targeting a Class */
+
+.btn {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}/*
+
+/* IDs */
+#home {
+    float: left;
+    color: purple !important;
+    /*  important will take on the "last call" for !important */
+} 
+
+#About {
+    float: left;
+} 
+/* #news {
+    float: right;
+} */
+#Test {
+    float: left;
+}
+/* 
+* Compound Operators: 
+    > Refers to direct children of an element.
+    , Maatching selector.
+    + Immediate sibling of an element.
+    ~ Subsequent sibling of an element
+     */
+
+    nav .btn {
+        /*  Points to the NAV and ANY class within it, or children */
+        text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    }
+
+    div .paragraph > p {
+        /*  targeting any div with a class "paragraph" that is a <p> element  */
+        color: red;
+    }
+    .paragraph + div {
+        color: purple;
+    }
+    a:hover {
+    
+        color: lightblue;
+        /* 
+        mousing over any anchor tag will alter its color
+            -"home" doesn't change due to !important
+        */
+    }   
+    a:active {
+        color: purple;
+        text-shadow: 2px 2px 2px rgb(255,255,255);
+        /*  COPY OF BLOCK CODE IN VSCODE
+            ALT+SHIFT+DowntArrow/UpArrow
+            
+            Move block of code 
+            ALT+Down/Up Arrow*/
+    }
