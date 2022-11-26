@@ -1,0 +1,69 @@
+header {
+    background-color: rgb(184, 46, 11); 
+    /* font: italic; */
+    font-size: 100px;
+    text-align: center;
+    padding: 50px;
+    text-size-adjust: 100px;
+
+/* H: 84px;  */
+
+}
+
+/* Links */
+#home {
+    
+    text-decoration: none;
+    background-color: darkgreen;
+
+}
+
+nav {
+    font-size: xx-large;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    /* margin: auto;
+    margin-left: auto;
+    margin-right: auto; */
+}    
+main {
+    text-align: center
+}
+
+
+/* Image */
+img {
+
+    text-align: center;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%; 
+    padding: 50px;
+    }
+
+span {
+    font-style: italic;
+}
+
+
+#about {
+    font-size: medium;
+    padding: 50px;
+    text-align: center;
+    color: aqua;
+}
+
+#bottom-text {
+    text-decoration: line-through;
+    text-decoration-color: brown;
+    padding: 50px;
+    text-align: center;
+}
+
+#background-image {
+    background-image: none;
+}
+
+

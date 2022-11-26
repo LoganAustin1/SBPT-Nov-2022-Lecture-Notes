@@ -1,0 +1,82 @@
+header {
+    background-color: darkgoldenrod; 
+    /* font: italic; */
+    font-size: 100px;
+    text-align: center;
+    padding: 50px;
+    text-size-adjust: 100px;
+/* X: -218px;
+position: absolute;
+width: 524px;
+height: 84px;
+position: absolute;
+width: 524px;
+height: 84px;Y: -338px;
+W: 524px;
+H: 84px; */
+
+}
+
+/* Links */
+
+#about {
+    padding: 50px;
+    color: red;
+        font: bold;
+        text-decoration: none;
+        background-color: aqua;
+}
+#test {
+    padding: 50px;
+    color: green;
+    font: bold;
+        text-decoration: none;
+        background-color: aqua;
+}
+#contact {
+    padding: 50px;
+    color: blueviolet;
+    font: bold;
+        text-decoration: none;
+        background-color: aqua;
+}
+#howdy {
+    padding: 50px;
+    color: black;
+    font: bold;
+        text-decoration: none;
+        background-color: aqua;
+}
+
+nav {
+    font-size: xx-large;
+    text-align: center;
+    text-size-adjust: 49px;
+    padding: 50px;
+    /* margin: auto;
+    margin-left: auto;
+    margin-right: auto; */
+}    
+main {
+    text-align: center
+}
+
+
+/* Image */
+img {
+        text-align: center;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 80%; 
+        padding: 50px;
+        }
+
+span {
+    padding: 20px;
+    font-style: italic;
+    /* background-color: blue; */
+}
+/* Lorem */
+
+

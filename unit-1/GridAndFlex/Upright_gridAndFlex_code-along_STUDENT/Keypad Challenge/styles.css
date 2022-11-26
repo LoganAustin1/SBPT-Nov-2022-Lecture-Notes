@@ -1,0 +1,11 @@
+
+
+.Keypad {
+    display: grid;
+    grid-template: repeat(3, 25%) / repeat(, 12.5%);
+    border: black;
+    background-color: slategray;
+    font-size: x-small;
+    color: white;
+    }
+

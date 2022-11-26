@@ -1,0 +1,25 @@
+header {
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+    padding: 100px;
+}
+#one {
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+    float: left;
+    color: blue;
+}
+#dog {
+    float: right;
+}
+#two {
+    padding: 100px;
+    float: right;
+    color: brown;
+
+}
+#walrus {
+    float: left;
+}
