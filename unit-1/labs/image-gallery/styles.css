@@ -1,0 +1,113 @@
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(10, 10%) / repeat(10, 10%);
+    gap: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    grid-column: span 9;
+    
+    
+}
+
+#about {
+    
+        color: red;
+        font: bold;
+        text-decoration: none;
+        background-color: aqua;
+}
+#contact {
+    
+    color: green;
+    font: bold;
+        text-decoration: none;
+        background-color: aqua;
+}
+#links {
+    
+    color: blueviolet;
+    font: bold;
+        text-decoration: none;
+        background-color: aqua;
+}
+#menu {
+    
+    color: black;
+    font: bold;
+        
+        background-color: aqua;
+}
+
+.links {
+    text-align: center;
+    grid-column: span 9;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+}
+
+#hero {
+    
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+} 
+
+
+
+#cat1 {
+    place-content: center   ;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+#cat2 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+#cat3 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+#cat4 {
+    
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+#cat5 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+#cat6 {
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+
+
+.footer {
+    text-align: center;
+    grid-column: span 9;
+    grid-row-start: 10;
+    grid-row-end: 10;
+} 
+
+

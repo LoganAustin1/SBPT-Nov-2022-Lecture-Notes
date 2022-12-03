@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: 5;
+}
+
+
+
+#header {
+    text-align: center;
+    font-size: xx-large;
+}
+.links {
+    text-align: center;
+    padding: 10px;
+}
+#hero {
+    padding: 20px;
+}
+

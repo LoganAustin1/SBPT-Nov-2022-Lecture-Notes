@@ -67,8 +67,10 @@
 /* ! FLEX STYLING */
 .flex-sample {
     display: flex;
+    flex-flow: wrap;
     flex-direction: column;
     align-items: center;
+    
     /* align is now "shifted" to left-right due */
 }
 
