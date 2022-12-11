@@ -18,3 +18,6 @@ let age = 24;
     } else if (age >= 18) {
         console.log('You can vote!')
     }
+
+
+    /*

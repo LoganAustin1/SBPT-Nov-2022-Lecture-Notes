@@ -182,3 +182,11 @@ if(weather > 70 || rain) {
     }
 
     (newNum == 0) ? console.log('Hello') : (newNum < 0) ? console.log('hi') : console.log('goodbye again');
+
+    
+    let numOne = 1;
+    let numTwo = 2;
+
+    let value = ((numOne + numTwo) > 1) ? (numOne + numTwo) : 0; 
+
+    console.log(value);

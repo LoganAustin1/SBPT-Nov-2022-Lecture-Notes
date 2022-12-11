@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     display: grid;
-    grid-template: repeat(10, 10%) / repeat(10, 10%);
+    grid-template: repeat(10, 10%) / repeat(10, 10% );
     gap: 20px;
     
 }
