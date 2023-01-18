@@ -189,3 +189,33 @@ let apples = qty => {
 
 let appleCount = apples(4);
 console.log(appleCount)
+
+//? same function above as concise body
+let apples2 = qty => `There are ${qty} apples`;
+let newAppleCount = apples2(isFour);
+console.log(newAppleCount);
+
+//? Multiple params 
+let calc = (x,y) => x + y;
+console.log(calc(3,4));
+
+//* IIFE 
+/*
+    - Immediately Invoked Function Expression
+    - Helps allocating space in memory for anonymous functions
+    - Fires our function as soon as it is read
+
+*/
+
+(function() {
+    console.log('IIFE fired')
+})();
+
+/*
+    Make a tip calculator using a function
+    Have it RETURN the value
+    Capture that returned value in a VARIABLE
+    Print that variable
+*/
+
+

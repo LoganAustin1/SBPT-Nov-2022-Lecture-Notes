@@ -50,10 +50,3 @@ console.log(`Total: $${total.toFixed(2)}`);
 calcShoppingCart(secondCart);
 console.log(`Total: $${total.toFixed(2)}`);
 
-let light = true
-
-while(light) {
-
-console.log("Light's on")
-
-}

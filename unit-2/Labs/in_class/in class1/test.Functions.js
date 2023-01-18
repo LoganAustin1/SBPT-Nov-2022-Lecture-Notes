@@ -1,21 +1,20 @@
+let myStatement;
+
 let expressionFn = () => {
-
-    let myStatement = "Hello";
-
-    // return myStatement;
-    newExpressionFn(myStatement);
-    declarationFn(myStatement);
+    myStatement = "Hello";
 }
 
-// console.log(expressionFn());
+expressionFn();
+
+newExpressionFn(myStatement);
+declarationFn(myStatement);
 
 let newExpressionFn = (statement) => {
-    return `${statement} there!`;
+    console.log(`New Expression: ${statement} there!`);
 }
 
 function declarationFn(statement) {
-    return `${statement} there!`;
+    console.log(`Declaration: ${statement} there!`);
 }
-// console.log(newExpressionFn('Hi'));
 
-console.log(expressionFn());
+// console.log(expressionFn());    

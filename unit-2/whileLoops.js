@@ -8,20 +8,20 @@
     - The main purpose for while loops are when the iteration is uncertain. 
 */ 
 
-// let city = [
-//     'building', 'building', 'light pole', 'bridge', 'bridge', 'building', 'light pole', 'tree', 'light pole', 'empty street'
-// ];
+let city = [
+    'building', 'building', 'light pole', 'bridge', 'bridge', 'building', 'light pole', 'tree', 'light pole', 'empty street'
+];
 
-// let structure = city[0];
-// let pos = 0;
+let structure = city[0];
+let pos = 0;
 
-// while( structure != 'empty street') {
-//     console.log(`Spider-Man swings from the ${structure}`);
-//     pos++;
-//     structure = city[pos];
-// }
+while( structure != 'empty street') {
+    console.log(`Spider-Man swings from the ${structure}`);
+    pos++;
+    structure = city[pos];
+}
 
-// console.log(`Spider-Man lands in the ${structure}`);
+console.log(`Spider-Man lands in the ${structure}`);
 
 
 /*

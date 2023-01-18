@@ -34,6 +34,16 @@ let age = currentyear - birthyear;
 console.log(age);
 
 
+function divisible(a , b)
+    if ((a % b) == 0) {
+        console.log(true) 
+    } else {
+         console.log(false)
+      }
+    
+    
+    divisible( 5, 10)
+
 
 
 
